@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="./metadata/favicon.png" type="image/png">
+        <link rel="icon" href="./metadata/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>$SMASH</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="crtScanlines" class="scanline"></div>
+        <div id="crtMonitor" class="crt">
+            <div class="lights"></div>
+            <div id="mainContainer">
+                <div id="header">
+                    <img id="flashingHeader" src="./metadata/smash_logo.png">
+                </div>
+                <div id="hole_in_wall_container" class="nes-container is-dark">
+                    <div id="hole_in_wall">
+                        <img src="./metadata/hole.jpeg">
+                    </div>
+                </div>
+                <div id="contract_container" class="nes-container is-dark">
+                    <p id="contract">4doMBvaDcGrJZccxm1cPySTtkm6NMNJKbJ7HWDAHY5rj</p>
+                    <div id="copy_btn" type="button" class="nes-btn">COPY CONTRACT ADDRESS</div>
+                </div>
+                <div id="buttons" class="nes-container is-dark">
+                    <div id="telegram_btn" type="button" class="nes-btn">TELEGRAM</div>
+                    <div id="twitter_btn" type="button" class="nes-btn">TWITTER</div>
+                    <div id="buy_btn" type="button" class="nes-btn">💰<br>$SMASH</div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+        <script>
+            createLight();
+        </script>
+    </body>
+</html>
