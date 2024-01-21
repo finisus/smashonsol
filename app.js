@@ -48,7 +48,7 @@ twitterBtn.addEventListener('click', function () {
 
 // Buy Button
 document.getElementById('buy_btn').addEventListener('click', function() {
-	window.open('https://raydium.io/swap/?outputCurrency=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB', '_blank');
+	window.open('https://raydium.io/swap/?outputCurrency=ZE6BZQSe6U6vvMFFd2VzaJLaGUS6HnjC11bsEnQvurz', '_blank');
 });
 
 // Money Bag Background
